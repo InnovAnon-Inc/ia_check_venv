@@ -5,9 +5,9 @@ services:
       context:        .
       tags:
         - innovanon/ia_check_venv:latest
-        -           ia_check_venv:latest
-        - innovanon/ia_check_venv
-        -           ia_check_venv
+    #    -           ia_check_venv:latest
+    #    - innovanon/ia_check_venv
+    #    -           ia_check_venv
     image:            innovanon/ia_check_venv
     restart:          no
     logging:
